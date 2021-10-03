@@ -44,7 +44,7 @@ If using Ubuntu, you will likely see an error about `e2fsck` being out of date a
 ## Installation ##
 
 ```bash
-wget https://raw.githubusercontent.com/Drewsif/PiShrink/master/pishrink.sh
+wget https://raw.githubusercontent.com/chukfinley/pishrink/main/pishrink.sh
 chmod +x pishrink.sh
 sudo cp pishrink.sh /bin/pishrink
 rm -rf pishrink.sh
@@ -74,9 +74,3 @@ The filesystem on /dev/loop1 is now 773603 blocks long.
 
 Shrunk pi.img from 30G to 3.1G
 ```
-
-## Contributing ##
-
-If you find a bug please create an issue for it. If you would like a new feature added, you can create an issue for it but I can't promise that I will get to it.
-
-Pull requests for new features and bug fixes are more than welcome!
